@@ -1,0 +1,46 @@
+#input_box{
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    width: 100%;
+    height: 35px;
+    transform: translate(-50%,-50%);
+    background-color: rgb(255, 255, 255);
+
+}
+input{
+    margin-top: 0%;
+    width: 35%;
+    height: 30px;
+    border-radius: 10px;
+    outline: navy;
+    font-size: larger;
+    font-weight: bold;
+}
+button{
+    margin-left: 2%;
+    width: 150px;
+    border-radius: 20px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    height: 30px;
+    font-size: medium;
+}
+#display{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    width: 90%;
+    height: 550px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 25px;
+    transform: translate(-50%,-50%);
+    background-color: rgb(255, 255, 255);
+}
+#boxes{
+    margin-top: 2%;
+    height: 100px;
+    background-color: rgb(250, 193, 118);
+    border-radius: 10px;
+}
